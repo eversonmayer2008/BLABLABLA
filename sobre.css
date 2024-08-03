@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .imagem {
+            display: inline-block;
+            margin: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease-out;
+        }
+        .imagem:hover {
+            transform: scale(1.1);
+        }
+        .imagem img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #descricao {
+            margin-top: 20px;
+            padding: 20px;
+            background-color:#ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .secao {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            text-align: left;
+        }
+        .secao h2 {
+            color:green;
+            margin-bottom: 10px;
+        }
+        .secao p, .secao ul {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color:green;
+            color: #fff;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
